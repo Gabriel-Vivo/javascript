@@ -6,18 +6,20 @@ class Prodcuto {
     this.nombre = nombre;
     this.precio = precio;
   }
+
+
 }
 
-let nombre = "";
-let precio = 0;
+// let nombre = "";
+// let precio = 0;
 
 const lista = [];
 
 let pregunta = prompt("quieres ingresar un prodcuto si/no ??");
 
 while (pregunta != "no") {
-  nombre = prompt("ingrese nombre del producto");
-  precio = Number(prompt("ingrece precio"));
+ let nombre = prompt("ingrese nombre del producto");
+ let precio = Number(prompt("ingrece precio"));
   const prodcuto1 = new Prodcuto(nombre, precio);
   lista.push(prodcuto1);
   pregunta = prompt("quieres ingresar un prodcuto si/no ??");

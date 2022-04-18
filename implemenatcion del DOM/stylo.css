@@ -1,0 +1,108 @@
+header {
+  background-image: url(imagenes/pixeles.jpg);
+  background-size: cover;
+  font-size: 16px;
+}
+
+header .navbar {
+  width: 100%;
+}
+
+header .navbar .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+header .navbar .container-fluid img {
+  width: 150px;
+}
+
+header .navbar .container-fluid .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 3rem;
+  height: 100%;
+  width: 100%;
+}
+
+header .navbar .container-fluid .navbar-nav .nav-link {
+  color: white;
+}
+
+main .card {
+  background-color: #E9D431;
+  border: 3px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main .card button {
+  background-color: #E9D431;
+  border: 3px solid black;
+  color: black;
+}
+
+footer {
+  background-image: url(imagenes/pixeles.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+}
+
+footer .logo img {
+  width: 75px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 20%;
+}
+
+footer .logo img:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+  opacity: 70%;
+}
+
+footer img {
+  width: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #E9D431;
+}
+
+h1 {
+  color: brown;
+  margin: 60px;
+  text-align: center;
+}
+/*# sourceMappingURL=stylo.css.map */

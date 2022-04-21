@@ -1,0 +1,21 @@
+main{
+    
+    
+.card{
+    background-color:map-get($mapacolores , 1 );
+    border: 3px solid black;
+    align-items: center;
+    text-align: center;
+
+    #boton1{
+        background-color: red;
+    }
+
+    button{
+        background-color: map-get($mapacolores , 1 );
+        border: 3px solid black;
+        color: black;
+    }
+    
+}
+}

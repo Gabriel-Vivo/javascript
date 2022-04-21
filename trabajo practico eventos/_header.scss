@@ -1,0 +1,29 @@
+header {
+  background-image: url(imagenes/pixeles.jpg);
+  background-size: cover;
+  font-size: 16px;
+  .navbar {
+    width: 100%;
+
+    .container-fluid {
+      display: flex;
+
+      width: 100%;
+
+      img {
+        width: 150px;
+      }
+      .navbar-nav {
+        display: flex;
+        justify-content: end;
+        gap: 3rem;
+        height: 100%;
+        width: 100%;
+        .nav-link{
+            color: white ;
+        }
+      
+      }
+    }
+  }
+}

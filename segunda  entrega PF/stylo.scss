@@ -1,0 +1,60 @@
+
+
+
+
+
+@import "variablesass";
+
+    @import "header";
+    @import"main";
+    @import "footer";
+    
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:map-get($mapacolores, 1) //aplicando map de colores
+
+
+}
+
+h1{
+
+    color:brown;
+    margin: 60px;
+    text-align: center;
+    
+}
+
+#produc{
+
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+}
+
+
+
+.tarjetasCarrito {
+
+    img{
+
+        width: 100px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px gray;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+

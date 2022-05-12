@@ -1,0 +1,45 @@
+[
+
+    {
+        "id": "1",
+        "nombre": "AMY",
+        "precio": 150,
+        "imagen": "./imagenes/AMY.jpg",
+        "descripcion": "170g de carne Angus, provoleta, tomate perita asado, rúcula y mayonesa dechimichurri."
+    },
+    {
+        "id": "2",
+        "nombre": "CHEESE-BURGUER",
+        "precio": 170,
+        "imagen": "./imagenes/cheese-burger.jpg",
+        "descripcion": "Carne, Pan y Queso. Simple y al pie!"
+    },
+    {
+        "id": "3",
+        "nombre": "NORMAN",
+        "precio": 180,
+        "imagen": "./imagenes/NORMAN.jpg",
+        "descripcion": "170g de Carne Angus, Pan de Papa, Muzzarella, Queso Azul y Cebolla Crispy."
+    },
+    {
+        "id": "4",
+        "nombre": "FREDDY",
+        "precio": 180,
+        "imagen": "./imagenes/FREDDY.jpg",
+        "descripcion": "170g de Carne Angus, Cebolla Caramelizada, Queso Brie, Tomate Perita Asado, Rúcula y Mostaza Casera."
+    },
+    {
+        "id": "5",
+        "nombre": "jimmy",
+        "precio": 180,
+        "imagen": "./imagenes/jimmy.jpg",
+        "descripcion": "170g de Carne Angus, Queso Cheddar, Panceta, Cebolla Caramelizada, Pepinillos y Ronnie BBQ."
+    },
+    {
+        "id": "6",
+        "nombre": "MOTZ",
+        "precio": 180,
+        "imagen": "./imagenes/MOTZ.jpg",
+        "descripcion": "2 Burgers de 100g de Carne Angus, Pan de Papa, Cebolla y Cheddar."
+    }
+]

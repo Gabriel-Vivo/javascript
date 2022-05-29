@@ -1,0 +1,56 @@
+main {
+  .card {
+    background-color: map-get($mapacolores, 1);
+    border: 3px solid black;
+    text-align: center;
+    align-items: center;
+
+    #boton1 {
+      background-color: red;
+    }
+
+    button {
+      background-color: map-get($mapacolores, 1);
+      border: 3px solid black;
+      color: black;
+    }
+  }
+}
+
+#listaBurguer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.tarjetasCarrito {  
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px -5px #000000; 
+  box-shadow: 5px 5px 15px -5px #000000;
+}
+
+.carro_container{
+  display: none;
+}
+
+.hamb_nombre {
+  font-size: 1.2rem;
+  font-weight: bold; 
+  text-transform: uppercase;
+}
+
+.hamb_cantidad {
+  font-size: 1.2rem;
+  font-weight: bold; 
+}
+
+.hamb_precio{
+  font-size: 1.4rem;
+  font-weight: bold; 
+}
+
+.hamb_img {
+  border-radius: 15px;
+  
+}
